@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="/IMG/gear.png" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/IMG/wall.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        font-family: sans-serif;
+        color: aliceblue;
+      }
+      .head{
+        margin-top: 2%;
+      }
+      .head p {
+        display: inline;
+        font-size: x-large;
+        text-shadow: 1px 1px 5px gray;
+      }
+      .head p sub {
+        font-size: 15px;
+      }
+      .head hr {
+        margin-top: 1px;
+        width: 100px;
+        height: 1.5px;
+        border-radius: 25px;
+        background-color: lime;
+        border-color: transparent;
+      }
+      .center h1 {
+        margin-top: 1px;
+        font-size: 50px;
+        text-shadow: 1px 1px 5px gray;
+      }
+      .center hr {
+        margin-bottom: 2%;
+        margin-left: 47%;
+        width: 135px;
+        height: 3.5px;
+        background-color: white;
+        border-color: transparent;
+      }
+      .a{
+        margin-left: 35%;
+        width: 400px;
+        height: 370px;
+        border:1px solid rgb(197, 195, 195);
+        border-radius: 10%;
+        backdrop-filter: blur(1.5px);
+      }
+      .username img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10%;
+        filter: invert(100%);
+      }
+      .username p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      .username input {
+        width: 150px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(171, 171, 171);
+        color: white;
+      }
+      .username input:hover {
+        box-shadow: 0 0 5px #aaa;
+      }
+      .password img {
+        width: 50px;
+        height: 50px;
+        filter: invert(100%);
+      }
+      .password p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      .password input {
+        width: 150px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(171, 171, 171);
+        color: white;
+      }
+      .password input:hover {
+        box-shadow: 0 0 5px #aaa;
+      }
+      .submit input{
+        width: 150px;
+        height: 35px;
+        background-color: transparent;
+        border: 2.5px solid rgb(42, 168, 141);
+        color: white;
+        font-weight: bold;
+      }
+      .submit input:hover {
+        box-shadow: 0 0 5px #aaa;
+      }
+      .footer{
+        margin-top: 5%;
+      }
+      .footer input{
+        width: 160px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: bold;
+      }
+      .footer input:hover{
+        cursor: pointer;
+        text-shadow: 2px 2px 4px rgb(221, 198, 139);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <p>
+        Adis
+        <sub>xx </sub>
+      </p>
+      <hr />
+    </div>
+    <div class="center">
+      <h1>Login</h1>
+      <hr />
+    </div>
+<div class="a">
+    <div class="username">
+      <img src="IMG/user.png" alt="" />
+      <p>&#x25BC;</p>
+      <input type="text" />
+    </div>
+
+    <div class="password">
+      <img src="/IMG/password.png" alt="" />
+      <p>&#x25BC;</p>
+      <input type="password" />
+    </div>
+
+    <div class="submit">
+      <input type="button" value="LOGIN NOW" />
+      
+    </div>
+
+    <div class="footer">
+      <input type="button" value="SIGNUP NOW" />
+      <input type="button" value="FORGOT PASSWORD?" />
+    </div>
+</div>
+  </body>
+</html>
